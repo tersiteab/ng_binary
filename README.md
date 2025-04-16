@@ -80,3 +80,5 @@ cmake ..
 make 
 ./pointpillars_driver
 ```
+
+Find installation of the original code on _README.md
