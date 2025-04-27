@@ -1,6 +1,16 @@
 # PointPillars Inference with TVM + Custom Preprocessing (Pillarization)
 
-This README documents the full process of deploying a PointPillars model using TVM for GPU inference, with preprocessing done via a custom C++ shared library.
+This README documents the full process of deploying a PointPillars model using TVM for GPU inference, with preprocessing done via a custom C++ shared library. 
+
+---
+## 0. PointPillar Setup
+
+Set up conda env using requirement.txt as follow
+
+```
+conda create -n "PointPillar" python=3.9
+pip install -r requirements.txt
+```
 
 ---
 
