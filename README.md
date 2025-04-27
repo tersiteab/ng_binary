@@ -10,6 +10,8 @@ Set up conda env using requirement.txt as follow
 ```
 conda create -n "PointPillar" python=3.9
 pip install -r requirements.txt
+
+# comment out tvm module in the requirements.txt and install it after setting up tvm
 ```
 
 ---
